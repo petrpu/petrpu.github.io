@@ -1,0 +1,163 @@
+body {
+/*    font-family: 'noto_serifregular', Georgia, sans-serif; */
+    background-color:  transparent;
+    color: #000;
+}
+
+html { 
+  background: url(../img/index_w.jpg?v=1234) no-repeat right center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/index.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/index.jpg', sizingMethod='scale')";
+}
+
+
+html, body {
+    height: 100%;
+    min-height: 750px;
+}
+
+.text {
+    padding: 15px 15px 30px 15px;
+
+    max-width: 680px;
+    min-width:200px;
+    min-height: 100%;
+    margin-left: 15px;
+    bottom: 0px;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    position: relative;
+}
+
+a,p span {
+    background-color: white;
+}
+
+i span {
+    background-color: white;
+}
+
+a, a:link{
+    color: #0066ee;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+a:focus {
+	outline:none
+}
+
+a:visited {
+	color: #551A8B;
+}
+
+a:visited:hover {
+	color: #ee1100;
+}
+
+a:hover{
+    color: #ee1100;
+    text-decoration: underline;
+}
+
+.lang a:hover{
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+/*    opacity: 0.7;*/
+    text-decoration:none;
+}
+
+.lang a{
+    color: #333;
+/*    opacity: 0.7; */
+    border-bottom: 1px dotted;
+    text-decoration:none !important;
+}
+
+.online{
+}
+
+#now {
+    font-size: 12px;
+    text-align: right;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding-right: 30px
+}
+
+.links {
+    text-align: center;
+}
+
+.links i{
+    margin-bottom: 10px;
+    float: left;
+}
+
+.links a{
+    color: #333;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #ee1100;
+    text-decoration: none;
+}
+
+
+.links div{
+    margin-bottom: 5px;
+}
+
+
+.online table{
+    margin-top: 20px;
+}
+
+.disabled {
+    pointer-events: none !important;
+    cursor: default;
+    text-decoration: none !important;
+    border-bottom: 0px !important ;
+}
+
+
+
+.date {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.title {
+    padding-left: 30px;
+}
+
+.doi {
+    text-align: right;
+}
+.paper {
+    margin-bottom: 40px;
+    padding-right: 0px;
+}
+
+.paper p {
+    margin: 0 0 5px;
+}
+
+
+.fa {
+    background: white;
+}
+
+.ai {
+    background: white;
+}
